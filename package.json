@@ -1,0 +1,43 @@
+{
+  "name": "Imooc",
+  "version": "0.0.1",
+  "description": "immoc movie",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.9.2",
+    "connect-mongo": "^0.4.1",
+    "connect-multiparty": "^1.2.5",
+    "cookie-parser": "^1.3.3",
+    "ejs": "^1.0.0",
+    "express": "^4.10.2",
+    "express-session": "^1.9.1",
+    "grunt-mocha-test": "^0.12.4",
+    "jade": "^1.7.0",
+    "logger": "0.0.1",
+    "mocha": "^2.0.1",
+    "moment": "^2.8.3",
+    "mongoose": "^3.8.19",
+    "morgan": "^1.5.0",
+    "multipart": "^0.1.5",
+    "multiparty": "^4.0.0",
+    "session": "^0.1.0",
+    "should": "^4.3.0",
+    "supervisor": "^0.6.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imooc"
+  ],
+  "author": "david",
+  "license": "ISC"
+}

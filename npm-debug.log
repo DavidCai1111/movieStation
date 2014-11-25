@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'connect-multipart',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json Imooc@0.0.1 No repository field.
+6 warn package.json Imooc@0.0.1 No README data
+7 warn package.json multipart@0.1.5 No repository field.
+8 warn package.json multipart@0.1.5 No README data
+9 warn package.json openssl@0.1.0 No repository field.
+10 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+11 warn package.json logger@0.0.1 No repository field.
+12 warn package.json session@0.1.0 bugs['web'] should probably be bugs['url'].
+13 verbose readDependencies using package.json deps
+14 verbose cache add [ 'connect-multipart', null ]
+15 verbose cache add name=undefined spec="connect-multipart" args=["connect-multipart",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'connect-multipart',
+16 verbose parsed url   path: 'connect-multipart',
+16 verbose parsed url   href: 'connect-multipart' }
+17 silly lockFile 98aa3fa4-connect-multipart connect-multipart
+18 verbose lock connect-multipart C:\Users\caiwei\AppData\Roaming\npm-cache\98aa3fa4-connect-multipart.lock
+19 silly lockFile 98aa3fa4-connect-multipart connect-multipart
+20 silly lockFile 98aa3fa4-connect-multipart connect-multipart
+21 verbose addNamed [ 'connect-multipart', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 87db6e7d-connect-multipart connect-multipart@
+24 verbose lock connect-multipart@ C:\Users\caiwei\AppData\Roaming\npm-cache\87db6e7d-connect-multipart.lock
+25 silly addNameRange { name: 'connect-multipart', range: '*', hasData: false }
+26 verbose request where is /connect-multipart
+27 verbose request registry https://registry.npmjs.org/
+28 verbose request id 8da26f7aac78714b
+29 verbose url raw /connect-multipart
+30 verbose url resolving [ 'https://registry.npmjs.org/', './connect-multipart' ]
+31 verbose url resolved https://registry.npmjs.org/connect-multipart
+32 verbose request where is https://registry.npmjs.org/connect-multipart
+33 info trying registry request attempt 1 at 21:55:50
+34 http GET https://registry.npmjs.org/connect-multipart
+35 http 404 https://registry.npmjs.org/connect-multipart
+36 verbose headers { date: 'Mon, 24 Nov 2014 13:56:49 GMT',
+36 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=0',
+36 verbose headers   'content-length': '52',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   age: '0',
+36 verbose headers   'x-served-by': 'cache-ty66-TYO',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1416837409.717144,VS0,VE195',
+36 verbose headers   'keep-alive': 'timeout=10, max=50',
+36 verbose headers   connection: 'Keep-Alive' }
+37 silly registry.get cb [ 404,
+37 silly registry.get   { date: 'Mon, 24 Nov 2014 13:56:49 GMT',
+37 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+37 silly registry.get     'content-type': 'application/json',
+37 silly registry.get     'cache-control': 'max-age=0',
+37 silly registry.get     'content-length': '52',
+37 silly registry.get     'accept-ranges': 'bytes',
+37 silly registry.get     via: '1.1 varnish',
+37 silly registry.get     age: '0',
+37 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+37 silly registry.get     'x-cache': 'MISS',
+37 silly registry.get     'x-cache-hits': '0',
+37 silly registry.get     'x-timer': 'S1416837409.717144,VS0,VE195',
+37 silly registry.get     'keep-alive': 'timeout=10, max=50',
+37 silly registry.get     connection: 'Keep-Alive' } ]
+38 silly lockFile 87db6e7d-connect-multipart connect-multipart@
+39 silly lockFile 87db6e7d-connect-multipart connect-multipart@
+40 error 404 404 Not Found: connect-multipart
+40 error 404
+40 error 404 'connect-multipart' is not in the npm registry.
+40 error 404 You should bug the author to publish it
+40 error 404 It was specified as a dependency of 'Imooc'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, or http url, or git url.
+41 error System Windows_NT 6.1.7601
+42 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "connect-multipart" "--save"
+43 error cwd C:\workspace\Imooc
+44 error node -v v0.10.32
+45 error npm -v 1.4.28
+46 error code E404
+47 verbose exit [ 1, true ]

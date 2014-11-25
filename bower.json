@@ -1,0 +1,24 @@
+{
+  "name": "《慕课网nodejs+mongodb建站（1）》电影小站代码",
+  "version": "0.0.1",
+  "authors": [
+    "davidcai <376462191@qq.com>"
+  ],
+  "description": "imooc movie",
+  "keywords": [
+    "imooc"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
